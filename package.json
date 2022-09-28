@@ -1,6 +1,6 @@
 {
   "name": "create-directory-with-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This NPM package will make it easy to create directories with cli",
   "main": "index.js",
   "type": "module",
