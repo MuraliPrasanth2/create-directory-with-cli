@@ -12,8 +12,8 @@ const directoryNames = cliArguments.slice(2);
 
 // exiting if no directory names are specified in the cli.
 if (directoryNames.length === 0) {
-  console.log(chalk.red("Please specify the component name(s)."));
-  console.log(chalk.blueBright("eg., srfc Box"));
+  console.log(chalk.red("Please specify the directory name(s)."));
+  console.log(chalk.blueBright("eg., nmkdir pages"));
   process.exit(1);
 }
 
@@ -24,7 +24,7 @@ directoryNames.forEach(directoryName => {
   try {
     const directory = path.resolve(currentTerminalDirectory, directoryName);
 
-    mkdirSync(directory, {recursive: true});
+    mkdirSync(directory, { recursive: true });
   } catch (error) {
     console.log(chalk.red(error.message));
     process.exit(1);
