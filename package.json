@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/MuraliPrasanth2/create-directory-with-cli/issues"
   },
-  "homepage": "https://github.com/MuraliPrasanth2/create-directory-with-cli#readme"
+  "homepage": "https://github.com/MuraliPrasanth2/create-directory-with-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2"
+  }
 }
