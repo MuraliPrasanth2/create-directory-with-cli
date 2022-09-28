@@ -1,0 +1,27 @@
+{
+  "name": "create-directory-with-cli",
+  "version": "1.0.0",
+  "description": "This NPM package will make it easy to create directories with cli",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "bin": {
+    "nmkdir": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuraliPrasanth2/create-directory-with-cli.git"
+  },
+  "keywords": [
+    "create-directory",
+    "directory-using-cli",
+    "directory-creation",
+    "directories"
+  ],
+  "author": "Murali Prasanth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuraliPrasanth2/create-directory-with-cli/issues"
+  },
+  "homepage": "https://github.com/MuraliPrasanth2/create-directory-with-cli#readme"
+}
